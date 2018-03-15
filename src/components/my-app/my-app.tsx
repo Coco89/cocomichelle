@@ -47,6 +47,30 @@ export class MyApp {
 
             <stencil-route url='/profile/:name' component='app-profile'>
             </stencil-route>
+
+            <stencil-route url='/speaking/:name' component='app-speaking'>
+            </stencil-route>
+
+            <stencil-route url='/git/:name' component='app-git'>
+            </stencil-route>
+
+            <stencil-route url='/resume/:name' component='app-resume'>
+            </stencil-route>
+
+            <stencil-route url='/travels/:name' component='app-travels'>
+            </stencil-route>
+
+            <stencil-route url='/social/:name' component='app-social'>
+            </stencil-route>
+
+            <stencil-route url='/stfu/' component='app-stfu'>
+            </stencil-route>
+
+            <stencil-route url='/talks/:name' component='app-talks'>
+            </stencil-route>
+
+            <stencil-route url='/blog/:name' component='app-blog'>
+            </stencil-route>
           </stencil-router>
         </main>
       </ion-app>

@@ -6,10 +6,10 @@ import { urlB64ToUint8Array } from '../../helpers/utils';
 
 
 @Component({
-  tag: 'app-profile',
-  styleUrl: 'app-profile.scss'
+  tag: 'app-travels',
+  styleUrl: 'app-travels.scss'
 })
-export class AppProfile {
+export class AppTravels {
 
   @Prop() match: MatchResults;
   @Prop({ connect: 'ion-toast-controller' }) toastCtrl: ToastController;
@@ -73,7 +73,7 @@ export class AppProfile {
         <ion-page>
           <ion-header>
             <ion-toolbar color='primary'>
-              <ion-title>{this.match.params.name}'s Profile</ion-title>
+              <ion-title>{this.match.params.name}'s Travels</ion-title>
             </ion-toolbar>
           </ion-header>
 
@@ -87,48 +87,6 @@ export class AppProfile {
               <ion-label>Notifications</ion-label>
               <ion-toggle checked={this.notify} disabled={this.notify}></ion-toggle>
             </ion-item> : null}
-
-            <stencil-route-link url='/git/Coco'>
-            <ion-button>
-              Git page
-            </ion-button>
-          </stencil-route-link>
-
-          <stencil-route-link url='/resume/Coco'>
-            <ion-button>
-              Resume page
-            </ion-button>
-          </stencil-route-link>
-
-          <stencil-route-link url='/travels/Coco'>
-            <ion-button>
-              Travel page
-            </ion-button>
-          </stencil-route-link>
-
-          <stencil-route-link url='/social/Coco'>
-            <ion-button>
-              Social page
-            </ion-button>
-          </stencil-route-link>
-
-          <stencil-route-link url='/stfu/Coco'>
-            <ion-button>
-              STFU page
-            </ion-button>
-          </stencil-route-link>
-
-          <stencil-route-link url='/talks/Coco'>
-            <ion-button>
-              Talk page
-            </ion-button>
-          </stencil-route-link>
-
-          <stencil-route-link url='/blog/Coco'>
-            <ion-button>
-              Blog page
-            </ion-button>
-          </stencil-route-link>
           </ion-content>
         </ion-page>
       );

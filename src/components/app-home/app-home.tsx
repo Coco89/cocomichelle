@@ -24,9 +24,15 @@ export class AppHome {
             Check out our docs on <a href='https://stenciljs.com'>stenciljs.com</a> to get started.
           </p>
 
-          <stencil-route-link url='/profile/stencil'>
+          <stencil-route-link url='/profile/Coco'>
             <ion-button>
               Profile page
+            </ion-button>
+          </stencil-route-link>
+
+          <stencil-route-link url='/speaking/Coco'>
+            <ion-button>
+              Speaking page
             </ion-button>
           </stencil-route-link>
         </ion-content>
