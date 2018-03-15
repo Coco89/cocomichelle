@@ -100,3 +100,4 @@ We recommend using https://www.webpagetest.org/easy with the `Run Lighthouse Aud
 
 Stencil is a tool we developed at Ionic to make it easy to build Web Components and load them in an efficient manner. Generally, using a classic framework like Angular or React will make building a fast PWA challenging. Stencil provides a similar API to Angular and React but is focused on meeting the performance demands of modern Progressive Web Apps.
 # cocomichelle
+# cocomichelle
